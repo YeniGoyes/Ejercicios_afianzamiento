@@ -105,10 +105,10 @@ def ejercicioseis():
 #Ejercicio 7
 
 def ejerciciosiete():
-    for p in range(1, 10): 
-        print(f"\nTabla del {p}:")
-        for a in range(1, 11):  
-            print(f"{p} x {a} = {p * a}")
+    for i in range(1, 10):  
+     print(f"\nTabla del {i}:")
+      for j in range(1, 11):  
+       print(f"{i} x {j} = {i*j}")
 
 def main():
   print("\n parte 1")
